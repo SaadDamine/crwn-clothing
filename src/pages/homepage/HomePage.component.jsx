@@ -3,7 +3,7 @@ import DirectoryMenu from "../../components/directory-menu/directory-menu.compon
 
 import './homepage.styles.scss'
 
-export const HomePage = () =>
+const HomePage = () =>
 {
     return (
         <div className="homepage">
@@ -11,3 +11,5 @@ export const HomePage = () =>
         </div>
     );
 }
+
+export default HomePage;
