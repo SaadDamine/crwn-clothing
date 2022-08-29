@@ -15,7 +15,9 @@ function withRouter( Component )
         return (
             <Component
                 {...props}
-                router={{ location, navigate, params }}
+                location={location}
+                params={params}
+                navigate={navigate}
             />
         );
     }
