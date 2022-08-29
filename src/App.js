@@ -4,8 +4,8 @@ import { HomePage } from './pages/homepage/HomePage.component';
 import { Routes,Route } from 'react-router-dom';
 
 
-const Test = () => (
-  <div>this is Test page</div>
+const Hats = () => (
+  <div>this is hats page</div>
 );
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route  path='/' element={<HomePage />} />
-        <Route  path='/test' element={<Test />} />
+        <Route path='/hats' element={<Hats />} />
       </Routes>
     </div>
   );
